@@ -27,5 +27,13 @@
   },
   "scripts": {
     "test": "grunt test-ci"
+  },
+  "jspm": {
+    "directories": {
+      "lib": "lib"
+    },
+    "dependencies": {
+      "hyperagent": "github:radify/hyperagent"
+    }
   }
 }
